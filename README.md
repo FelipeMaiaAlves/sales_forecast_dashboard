@@ -42,30 +42,25 @@ The final predictive model is a **Random Forest Regressor** trained on a rich se
 ## 📁 Project Structure
 
 sales_forecast_dashboard/
-│
 ├── data/
-│ ├── raw/ # Simulated raw sales data
-│ ├── processed/ # Cleaned and feature-engineered datasets
-│ └── future_sales_forecast.csv # Future forecast output
-│
+│   ├── raw/                      # Simulated raw sales data
+│   ├── processed/                # Cleaned and feature-engineered datasets
+│   └── future_sales_forecast.csv # Future forecast output
 ├── dashboards/
-│ ├── sales_forecast_dashboard.pbix # Power BI dashboard file
-│ └── dashboard_print.png # Dashboard screenshot
-│
+│   ├── sales_forecast_dashboard.pbix  # Power BI dashboard file
+│   └── dashboard_print.png             # Dashboard screenshot
 ├── scripts/
-│ ├── generate_sales_data.py # Synthetic sales data generator
-│ ├── preprocess.py # Feature engineering scripts
-│ └── forecast_future.py # Model inference and forecasting
-│
+│   ├── generate_sales_data.py    # Synthetic sales data generator
+│   ├── preprocess.py             # Feature engineering scripts
+│   └── forecast_future.py        # Model inference and forecasting
 ├── notebooks/
-│ ├── eda_vendas.py # Exploratory data analysis (overview)
-│ ├── eda_detalhado.py # Detailed EDA
-│ └── model_training.py # Model training and evaluation
-│
+│   ├── eda_vendas.py             # Exploratory data analysis (overview)
+│   ├── eda_detalhado.py          # Detailed EDA
+│   └── model_training.py         # Model training and evaluation
 ├── model/
-│ └── sales_forecast_model.pkl # Trained Random Forest model
-│
+│   └── sales_forecast_model.pkl  # Trained Random Forest model
 └── README.md
+
 
 
 ---
